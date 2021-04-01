@@ -59,8 +59,6 @@ public class Main {
 
     private void addCharacter(Character character)
     {
-        if(character.equals(' '))
-            return;
         if(charCounts.containsKey(character)){
             int newCnt = charCounts.get(character) + 1;
             charCounts.put(character, newCnt);
